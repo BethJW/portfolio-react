@@ -1,4 +1,17 @@
 .row {
   text-align: center;
+  padding: 30px;
+}
+h4 {
+  text-align: center;
   margin-top: 50px;
+  font-size: 30px;
+}
+img {
+  width: 100%;
+  padding: 20px;
+}
+
+.card {
+  margin: 20px;
 }
