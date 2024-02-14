@@ -1,17 +1,31 @@
+section {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
 .row {
   text-align: center;
   padding: 30px;
 }
-h4 {
+section .col-sm-6 {
+  margin-top: 20px;
+}
+section h4 {
   text-align: center;
-  margin-top: 50px;
-  font-size: 30px;
+  margin-top: 20px;
+  font-size: 28px;
 }
-img {
-  width: 100%;
+.card img {
   padding: 20px;
+  margin-top: 10px;
 }
-
-.card {
-  margin: 20px;
+.card-img-top {
+  margin-bottom: 20px;
+  height: 650px;
+}
+p {
+  text-align: center;
+}
+.git a {
+  font-size: 20px;
+  color: black;
 }

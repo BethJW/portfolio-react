@@ -3,38 +3,33 @@ import "./Projects.css";
 import Weather from "./weather.png";
 import Recipe from "./recipe.png";
 import WorldClock from "./world-clock.png";
-
+import Dictionary from "./dictiionary.png";
+import WeatherReact from "./weather-react.png";
+import ResponsiveLego from "./responsive website.png";
 export default function Projects() {
   return (
     <section className="Projects" id="projects">
-      <h4>View my latest Work</h4>
+      <h4>View my featured Work</h4>
       <div className="row">
         <div className="col-sm-6">
           <div className="card">
-            <img className="card-img-top" src={Weather} alt="Card image cap" />
+            <img
+              className="card-img-top"
+              src={Dictionary}
+              alt="Card image cap"
+            />
             <div className="card-body">
-              <h5 className="card-title">Weather App</h5>
+              <h5 className="card-title">Dictionary React App</h5>
               <p className="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                A dictionary app made using React with an integrated Dictionary
+                API and images API.
               </p>
-              <a href="#" className="btn btn-primary">
-                Go somewhere
-              </a>
-            </div>
-          </div>
-        </div>
-        <div className="col-sm-6">
-          <div className="card">
-            <img className="card-img-top" src={Recipe} alt="Card image cap" />
-            <div className="card-body">
-              <h5 className="card-title">Card title</h5>
-              <p className="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
-              <a href="#" className="btn btn-primary">
-                Go somewhere
+              <a
+                href="https://dictionary-app-bjw.netlify.app/"
+                className="btn btn-primary"
+                target="_blank"
+              >
+                Launch App
               </a>
             </div>
           </div>
@@ -43,22 +38,69 @@ export default function Projects() {
           <div className="card">
             <img
               className="card-img-top"
-              src={WorldClock}
+              src={ResponsiveLego}
               alt="Card image cap"
             />
             <div className="card-body">
-              <h5 className="card-title">Card title</h5>
+              <h5 className="card-title">Responsive Website</h5>
               <p className="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                A responsive website built with javascript, utilising responsive
+                design with media queries.
               </p>
-              <a href="#" className="btn btn-primary">
-                Go somewhere
+              <a
+                href="https://lego-bjw.netlify.app/"
+                className="btn btn-primary"
+                target="_blank"
+              >
+                Launch App{" "}
+              </a>
+            </div>
+          </div>
+        </div>
+        <div className="col-sm-6">
+          <div className="card">
+            <img
+              className="card-img-top"
+              src={WeatherReact}
+              alt="Card image cap"
+            />
+            <div className="card-body">
+              <h5 className="card-title">React Weather App</h5>
+              <p className="card-text">
+                A weather app built using React with an integrated weather API.
+              </p>
+              <a
+                href="https://react-weather-bjw.netlify.app/"
+                className="btn btn-primary"
+                target="_blank"
+              >
+                Launch App{" "}
+              </a>
+            </div>
+          </div>
+        </div>
+        <div className="col-sm-6">
+          <div className="card">
+            <img className="card-img-top" src={Recipe} alt="Card image cap" />
+            <div className="card-body">
+              <h5 className="card-title">Recipe Generator</h5>
+              <p className="card-text">
+                A Recipe generator built with javascript that uses an AI API.
+              </p>
+              <a
+                href="https://recipe-generator-bjw.netlify.app/"
+                className="btn btn-primary"
+                target="_blank"
+              >
+                Launch App{" "}
               </a>
             </div>
           </div>
         </div>
       </div>
+      <p className="git ">
+        <a href="https://github.com/BethJW">Take a look at my code on GitHub</a>
+      </p>
     </section>
   );
 }
