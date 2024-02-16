@@ -1,5 +1,9 @@
 import React from "react";
 import "./App.css";
+import "./Home.css";
+import "./Projects.css";
+import "./Nav.css";
+
 import "bootstrap";
 import Home from "./Home";
 import Projects from "./Projects";

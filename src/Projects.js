@@ -1,11 +1,11 @@
 import React from "react";
 import "./Projects.css";
-import Weather from "./weather.png";
-import Recipe from "./recipe.png";
+import Weather from "./weather 2.png";
+import Recipe from "./recipe 2.png";
 import WorldClock from "./world-clock.png";
-import Dictionary from "./dictiionary.png";
+import Dictionary from "./dict.png";
 import WeatherReact from "./weather-react.png";
-import ResponsiveLego from "./responsive website.png";
+import ResponsiveLego from "./responsive.png";
 export default function Projects() {
   return (
     <section className="Projects" id="projects">
@@ -59,15 +59,12 @@ export default function Projects() {
         </div>
         <div className="col-sm-6">
           <div className="card">
-            <img
-              className="card-img-top"
-              src={WeatherReact}
-              alt="Card image cap"
-            />
+            <img className="card-img-top" src={Weather} alt="Card image cap" />
             <div className="card-body">
               <h5 className="card-title">React Weather App</h5>
               <p className="card-text">
-                A weather app built using React with an integrated weather API.
+                A weather app built using React with an integrated weather{" "}
+                <br /> API.
               </p>
               <a
                 href="https://react-weather-bjw.netlify.app/"
@@ -85,7 +82,8 @@ export default function Projects() {
             <div className="card-body">
               <h5 className="card-title">Recipe Generator</h5>
               <p className="card-text">
-                A Recipe generator built with javascript that uses an AI API.
+                A Recipe generator built with javascript that uses an AI <br />{" "}
+                API.
               </p>
               <a
                 href="https://recipe-generator-bjw.netlify.app/"
