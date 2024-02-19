@@ -1,5 +1,7 @@
 import React from "react";
 import Portrait from "./graduate.JPG";
+import PDF from "./Beth Williamson Cv.pdf";
+
 import "./About.css";
 export default function About() {
   return (
@@ -23,11 +25,11 @@ export default function About() {
           </p>
           <br />
           <p>
-            <a href="/">Download my CV here</a>
+            <a href={PDF}>Download my CV here</a>
           </p>
         </div>
         <div className="col-sm-6 ">
-          <img src={Portrait} className="img-fluid" />
+          <img src={Portrait} className="img-fluid" ALT="Beth" />
         </div>
       </div>
     </div>
