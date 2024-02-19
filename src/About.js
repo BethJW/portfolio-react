@@ -25,17 +25,13 @@ export default function About() {
           </p>
           <br />
           <p>
-            <a href={PDF}>Download my CV here</a>
+            <a href={PDF} target="_blank" rel="noreferrer">
+              Download my CV here
+            </a>
           </p>
         </div>
         <div className="col-sm-6 ">
-          <img
-            src={Portrait}
-            className="img-fluid"
-            alt="Beth"
-            target="_blank"
-            rel="noreferrer"
-          />
+          <img src={Portrait} className="img-fluid" alt="Beth" />
         </div>
       </div>
     </div>
