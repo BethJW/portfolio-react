@@ -105,4 +105,16 @@
   .Footer li a {
     font-size: 15px;
   }
+  .About p a {
+    margin: 0;
+    padding: 0;
+  }
+  .About p.pdf {
+    margin: 0px;
+  }
+  .About .pdf a {
+    font-size: 20px;
+    margin: 0px;
+    padding: 0px;
+  }
 }

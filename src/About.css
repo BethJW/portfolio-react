@@ -13,11 +13,8 @@
 .About p {
   font-size: 20px;
   margin: 0 auto;
-  width: 500px;
 }
-.About p a {
-  font-size: 20px;
-}
+
 .About img {
   height: 600px;
   border-radius: 30px;

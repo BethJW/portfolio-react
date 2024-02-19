@@ -23,8 +23,7 @@ export default function About() {
             my passion further and that's when I started a coding course, called
             SheCodes.
           </p>
-          <br />
-          <p>
+          <p className="pdf">
             <a href={PDF} target="_blank" rel="noreferrer">
               Download my CV here
             </a>
