@@ -9,12 +9,22 @@ export default function Contact() {
       <ul>
         <li>
           Email <br />{" "}
-          <a href="mailto:bethanyjw@live.co.uk">bethanyjw@live.co.uk</a>
+          <a
+            href="mailto:bethanyjw@live.co.uk"
+            target="_blank"
+            rel="noreferrer"
+          >
+            bethanyjw@live.co.uk
+          </a>
         </li>
         <li>
           Linkedin
           <br />
-          <a href="https://www.linkedin.com/in/bethjwilliamson/">
+          <a
+            href="https://www.linkedin.com/in/bethjwilliamson/"
+            target="_blank"
+            rel="noreferrer"
+          >
             @bethjwilliamson
           </a>
         </li>
