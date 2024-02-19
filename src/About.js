@@ -21,6 +21,10 @@ export default function About() {
             my passion further and that's when I started a coding course, called
             SheCodes.
           </p>
+          <br />
+          <p>
+            <a href="/">Download my CV here</a>
+          </p>
         </div>
         <div className="col-sm-6 ">
           <img src={Portrait} className="img-fluid" />
