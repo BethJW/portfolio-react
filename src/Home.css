@@ -18,8 +18,7 @@ header ul {
   display: flex;
   justify-content: space-between;
 }
-header li {
-}
+
 header a {
   display: block;
   margin: 50px 180px;
