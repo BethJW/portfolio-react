@@ -1,6 +1,4 @@
 header {
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   padding: 180px;
   background-color: rgba(112, 202, 251, 0.429);
 }
@@ -14,6 +12,13 @@ header h1 {
 header h3 {
   text-align: center;
   font-size: 25px;
+}
+header ul {
+  list-style: circle;
+  display: flex;
+  justify-content: space-between;
+}
+header li {
 }
 header a {
   display: block;

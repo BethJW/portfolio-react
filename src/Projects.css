@@ -29,3 +29,6 @@ p {
   font-size: 20px;
   color: black;
 }
+.card:hover {
+  background-color: rgba(112, 202, 251, 0.429);
+}

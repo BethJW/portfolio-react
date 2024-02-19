@@ -2,9 +2,7 @@ import React from "react";
 import "./Projects.css";
 import Weather from "./weather 2.png";
 import Recipe from "./recipe 2.png";
-import WorldClock from "./world-clock.png";
 import Dictionary from "./dict.png";
-import WeatherReact from "./weather-react.png";
 import ResponsiveLego from "./responsive.png";
 export default function Projects() {
   return (
@@ -13,11 +11,7 @@ export default function Projects() {
       <div className="row">
         <div className="col-sm-6">
           <div className="card">
-            <img
-              className="card-img-top"
-              src={Dictionary}
-              alt="Card image cap"
-            />
+            <img className="card-img-top" src={Dictionary} alt="dictionary" />
             <div className="card-body">
               <h5 className="card-title">Dictionary React App</h5>
               <p className="card-text">
@@ -28,6 +22,7 @@ export default function Projects() {
                 href="https://dictionary-app-bjw.netlify.app/"
                 className="btn btn-primary"
                 target="_blank"
+                rel="noreferrer"
               >
                 Launch App
               </a>
@@ -36,11 +31,7 @@ export default function Projects() {
         </div>
         <div className="col-sm-6">
           <div className="card">
-            <img
-              className="card-img-top"
-              src={ResponsiveLego}
-              alt="Card image cap"
-            />
+            <img className="card-img-top" src={ResponsiveLego} alt="lego" />
             <div className="card-body">
               <h5 className="card-title">Responsive Website</h5>
               <p className="card-text">
@@ -51,6 +42,7 @@ export default function Projects() {
                 href="https://lego-bjw.netlify.app/"
                 className="btn btn-primary"
                 target="_blank"
+                rel="noreferrer"
               >
                 Launch App{" "}
               </a>
@@ -59,7 +51,7 @@ export default function Projects() {
         </div>
         <div className="col-sm-6">
           <div className="card">
-            <img className="card-img-top" src={Weather} alt="Card image cap" />
+            <img className="card-img-top" src={Weather} alt="weather" />
             <div className="card-body">
               <h5 className="card-title">React Weather App</h5>
               <p className="card-text">
@@ -70,6 +62,7 @@ export default function Projects() {
                 href="https://react-weather-bjw.netlify.app/"
                 className="btn btn-primary"
                 target="_blank"
+                rel="noreferrer"
               >
                 Launch App{" "}
               </a>
@@ -78,7 +71,7 @@ export default function Projects() {
         </div>
         <div className="col-sm-6">
           <div className="card">
-            <img className="card-img-top" src={Recipe} alt="Card image cap" />
+            <img className="card-img-top" src={Recipe} alt="recipe" />
             <div className="card-body">
               <h5 className="card-title">Recipe Generator</h5>
               <p className="card-text">
@@ -89,6 +82,7 @@ export default function Projects() {
                 href="https://recipe-generator-bjw.netlify.app/"
                 className="btn btn-primary"
                 target="_blank"
+                rel="noreferrer"
               >
                 Launch App{" "}
               </a>
@@ -97,7 +91,9 @@ export default function Projects() {
         </div>
       </div>
       <p className="git ">
-        <a href="https://github.com/BethJW">Take a look at my code on GitHub</a>
+        <a href="https://github.com/BethJW" target="_blank" rel="noreferrer">
+          Take a look at my code on GitHub
+        </a>
       </p>
     </section>
   );
