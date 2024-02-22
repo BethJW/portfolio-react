@@ -1,5 +1,5 @@
 import React from "react";
-import Portrait from "./graduate.JPG";
+import Portrait from "./graduate (1).JPG";
 import PDF from "./BethanyJWilliamson CV (1).pdf";
 
 import "./About.css";
