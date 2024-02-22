@@ -1,39 +1,23 @@
 import React from "react";
 import "./Nav.css";
-
+import Container from "react-bootstrap/Container";
+import Nav from "react-bootstrap/Nav";
+import Navbar from "react-bootstrap/Navbar";
 export default function Navigation() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light p-4">
-      <a className="navbar-brand " href="#home">
-        BW
-      </a>
-      <button
-        className="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarNavAltMarkup"
-        aria-controls="navbarNavAltMarkup"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span className="navbar-toggler-icon"></span>
-      </button>
-      <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div className="navbar-nav">
-          <a className="nav-item nav-link " href="#home">
-            Home <span className="sr-only"></span>
-          </a>
-          <a className="nav-item nav-link" href="#about">
-            About
-          </a>
-          <a className="nav-item nav-link" href="#projects">
-            Projects
-          </a>
-          <a className="nav-item nav-link" href="#contact">
-            Contact
-          </a>
-        </div>
-      </div>
-    </nav>
+    <Navbar expand="lg" className="bg-body-tertiary">
+      <Container>
+        <Navbar.Brand href="#home">BW</Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="me-auto">
+            <Nav.Link href="#home">Home</Nav.Link>
+            <Nav.Link href="#projects">Projects</Nav.Link>
+            <Nav.Link href="#about">About Me</Nav.Link>
+            <Nav.Link href="#contact">Contact</Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
   );
 }
