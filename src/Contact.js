@@ -28,10 +28,6 @@ export default function Contact() {
             @bethjwilliamson
           </a>
         </li>
-        <li>
-          {" "}
-          Mobile <br /> <small>07938241230</small>
-        </li>
       </ul>
     </div>
   );
