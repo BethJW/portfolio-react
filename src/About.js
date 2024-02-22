@@ -24,7 +24,7 @@ export default function About() {
             SheCodes.
           </p>
           <p className="pdf">
-            <a href={PDF} target="_blank" rel="noreferrer">
+            <a href={null} target="_blank" rel="noreferrer">
               Download my CV here
             </a>
           </p>
