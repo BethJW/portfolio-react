@@ -1,6 +1,6 @@
 import React from "react";
 import Portrait from "./graduate (1).JPG";
-import PDF from "./BethanyJWilliamson CV (1).pdf";
+import PDF from "./beth 1-merge.pdf";
 
 import "./About.css";
 export default function About() {
@@ -24,7 +24,7 @@ export default function About() {
             SheCodes.
           </p>
           <p className="pdf">
-            <a href={null} target="_blank" rel="noreferrer">
+            <a href={PDF} target="_blank" rel="noreferrer">
               Download my CV here
             </a>
           </p>
