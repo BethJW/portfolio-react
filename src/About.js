@@ -1,6 +1,6 @@
 import React from "react";
 import Portrait from "./graduate (1).JPG";
-import PDF from "./beth 1-merged.pdf";
+import PDF from "./BethjWilliamson CV .pdf";
 
 import "./About.css";
 export default function About() {
